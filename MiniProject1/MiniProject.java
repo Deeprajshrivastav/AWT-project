@@ -6,9 +6,9 @@ import java.awt.event.WindowAdapter;
 import java.awt.event.WindowEvent;
 
 
-public class JavaProject extends Frame implements ActionListener {
+public class MiniProject extends Frame implements ActionListener {
 
-    JavaProject() {
+    MiniProject() {
 
         setTitle("Temperature Convertor");
 
@@ -133,7 +133,7 @@ public class JavaProject extends Frame implements ActionListener {
     }
 
     public static void main(String[] args) {
-        JavaProject obj = new JavaProject();
+        MiniProject obj = new MiniProject();
     }
 
     @Override
