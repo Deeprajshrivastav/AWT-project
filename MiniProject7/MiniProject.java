@@ -34,9 +34,9 @@ class StringOperator {
 }
 
 
-public class Project9 extends Frame implements ActionListener {
+public class MiniProject extends Frame implements ActionListener {
 
-    Project9() {
+    MiniProject() {
 
         setTitle("String Operator");
 
@@ -166,7 +166,7 @@ public class Project9 extends Frame implements ActionListener {
     }
 
     public static void main(String[] args) {
-        Project9 obj = new Project9();
+        MiniProject obj = new MiniProject();
     }
 
     @Override
